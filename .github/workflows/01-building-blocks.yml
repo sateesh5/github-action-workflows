@@ -11,6 +11,10 @@ jobs:
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
+            - name: successfully done
+              run: |
+                echo " this is done"
+                exit 0
             - name: say good bye
               run: echo "Good bye"
 
