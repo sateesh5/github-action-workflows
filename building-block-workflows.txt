@@ -1,0 +1,11 @@
+Workflows,jobs &Steps
+
+Workflows
+---------
+. Are defined at teh repository level
+. Defaine which triggers actually start the workflow
+. Workflows are composed of one or more jobs
+
+jobs
+----
+Jobs are defined at the workflow level
